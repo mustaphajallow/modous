@@ -1,0 +1,746 @@
+@media (min-width: 45em) {
+    .grid-container {
+       
+        text-align: left;
+        column-gap: 1em;
+        display: grid;
+        grid-template-columns: minmax(1rem, 1fr) repeat(6, minmax(0, 30rem)) minmax(1rem, 1fr);
+    }
+    
+    .header-cotainer{
+        
+        grid-column: 3/-3;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        border-bottom:5px solid #338ac6;
+
+        .note{
+            line-height: 1.5em;
+            color: #868686;
+            
+        }
+
+    }
+
+    .img-profile{
+        width: 11rem;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        object-fit: cover;
+       
+    }
+    .profile-info{
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        gap: 1em;
+        padding: 2em;
+        background-color: #f5f6f6;
+        .name{
+            font-size: 3em;
+            color: #3a3c42;
+       
+            
+        }
+
+        .STACK{
+                background-color: #338ac6;
+                color: white;
+                padding: 1em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p{
+                    font-size: 1.2em;
+                    letter-spacing: .1em;
+                }
+        }
+    }
+    .content{
+        width: 70%;
+       
+        display: flex;
+        gap: 1.5em;
+        flex-direction: column;
+    }
+    .contact{
+        background-color:#333233;
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5em;
+        flex-direction: column;
+        padding: 2em;
+        .BS{
+            color:white;
+            font-size: .9em;
+        }
+        .utg{
+            font-size: .8em;
+            color:rgb(219, 219, 219);
+            font-style: italic;
+        }
+    }
+    .icons{
+      
+        :first-child{
+            width: 1.5em;
+            height: 1.5em;
+            color: rgb(255, 255, 255);
+        }
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        gap: .7em;
+
+        h5{
+            color: white;
+            font-size: 1.5em;
+            font-weight: 600;
+            padding: .5em;
+            font-family:Saira 'Saira Condensed';
+            border-left:4px solid #338ac6; 
+        }
+        p{
+            color: rgb(216, 216, 216);
+            font-size: .8em;
+        }
+    }
+
+    .professional{
+        grid-column: 3/-3;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        border-bottom:5px solid #338ac6;
+        
+  
+        .light-background{
+            grid-column: 1/2;
+            padding: 2em;
+            background-color: #ffffff;
+        }
+
+        .icons-hed{
+            width: 6em;
+            height: 5em;
+            background-color: #338ac6;
+            border-radius: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      
+            :first-child{
+                width: 1.5em;
+                height: 1.5em;
+                color: rgb(255, 255, 255);
+            }
+        }
+        .experience{
+            display: flex;
+            align-items: center;
+
+            h4{
+                transform: translateX(-1em);
+                padding: .1em 2em;
+                border-radius:0 5em 5em 0;
+                font-size: 2em;
+               
+                border:3px solid #338ac6;
+                border-left: none;
+                width: 100%;
+            }
+        }
+    }
+  
+     .dack-background{
+        grid-column: 2;
+        background-color:#333233;
+       
+    }
+  }
+
+  .hd{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:3px solid #338ac6;
+    border-left:14px solid #338ac6; 
+    padding-left: 1em;
+    margin-top: 1.4em;
+    padding-bottom: 1em;
+
+    .dev-know{
+        h5{
+            font-family: Orbitron;
+            font-size: 1em;
+            letter-spacing: .2em;
+        }
+        .inline{
+            display: flex;
+            margin-top: .4em;
+
+            .hotal{
+                color: #338ad0;
+                font-size: .9em;
+                font-weight: bold;
+                margin-right: .7em;
+            }
+            .link{
+                font-size: .9em;
+            }
+        }
+        
+    }
+    .date{
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+           
+            .date-text{
+                color: #338ad0;
+                font-size: .9em;
+            }
+            .contry{
+                color: #969696;
+                margin-top: .4em;
+            }
+        }
+      
+  }
+  .via-info{
+            background-color:#f5f6f6 ;
+            padding: 1em;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: .5em;
+            p{
+                color: #505050;
+            }
+        }
+        .via-info-system{
+            background-color:#f5f6f6 ;
+            padding: 1em;
+            display: flex;
+            align-items: start;
+            flex-direction: row;
+            gap: 1.7em;
+            .system{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                gap: .5em;
+            }
+            p{
+                color: #505050;
+            }
+        }
+
+        .country-date{
+            display: flex;
+            gap: .6em;
+            background-color: #338ac6;
+            padding: .5em;
+            width: 90%;
+            border-radius:1em ;
+            p{
+                color: white;
+                font-size: .9em;
+            }
+            :last-child{
+                color: #e6e6e6;
+            }
+        }
+
+        .school-at{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: .7em;
+            margin: .7em 0;
+        }
+        .language{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+               width: 100%;
+             .eng{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+         
+        }
+        .ger{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 20%;
+                }
+              }
+        }
+        .fula{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 96%;
+                }
+              }
+        }
+        .mandin{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 70%;
+                }
+              }
+        }
+        .wol{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 96%;
+                }
+              }
+        }
+         
+   .rating{
+                position: relative;
+                width: 50%;
+                height: .8em;
+                border-radius: .5em;
+                overflow: hidden;
+                outline: 1px solid #338ac6;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width: 96%;
+                    height: 100%;
+                    top:0;
+                    left: 0;
+                    background-color: #338ac6;
+
+                }
+            }
+          
+        }
+
+       
+
+        // skills styles new name
+
+        .skills{
+
+            .programing-language{
+                display: flex;
+                flex-direction: row;
+                gap: 1em;
+               position: relative;
+                P{
+                    color: white;
+                    
+                }
+                .pro{
+                 
+                    width: 1.4em;
+                    height: 17em;
+                    background-color: #338ac6;
+                    
+                    p{ 
+                       transform-origin: 0 0;
+                        font-size: .7em;
+                        font-weight: bold;
+                       width: 170px;
+                        transform: rotate(-90deg);
+                        position: absolute;
+                        top: 78%;
+                        left:4px;
+                    }
+                
+                   
+                }
+                .all-language{
+                    width: 100%;
+                    display: flex;
+                    gap: .6em;
+                    flex-direction: column;
+                }
+                .html{
+                    width: 100%;
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .lang{
+                        font-size: .8em;
+                        color: #d8d8d8;
+                    }
+
+                    .dut-con{
+                         display: flex;
+                         gap: .8em;
+                    }
+                   
+                    gap: .6em;
+                    .one,
+                    .two,
+                    .tre,
+                    .for,
+                    .fiv,
+                    .sis{
+                        width: .4em;
+                        height: .4em;
+                        background-color: #338ac6;
+                        border-radius: 100%;
+                    }
+                }
+
+                .py{ .tre,
+                    .for,
+                    .fiv,
+                    .sis{
+                        background-color: #e2e2e3;
+                    }
+                }
+                .mys{
+                    
+                    .sis{
+                        background-color: #e2e2e3;
+                    }
+                }
+                .java{.sis,
+                    .tre,
+                    .for,
+                    .fiv{
+                        background-color: #e2e2e3;
+                    }
+                }
+                .shell{.sis,
+                    .fiv{
+                        background-color: #e2e2e3;
+                    }
+                }
+                .redis{.sis,
+                   
+                    .for,
+                    .fiv{
+                        background-color: #e2e2e3;
+                    }
+                }
+                 .mic{.sis,
+                 
+                    .fiv{
+                        background-color: #e2e2e3;
+                    }
+                }
+                .exp{.sis{
+                        background-color: #e2e2e3;
+                    }
+                }
+            }
+
+
+        }
+
+        .Project{
+            
+            
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+           position: relative;
+            P{
+                color: white;
+                
+            }
+            .pro{
+             
+                width: 1.4em;
+                height: 15.5em;
+                background-color: #338ac6;
+                
+                p{ 
+                   transform-origin: 0 0;
+                    font-size: .7em;
+                    font-weight: bold;
+                   width: 170px;
+                    transform: rotate(-90deg);
+                    position: absolute;
+                    top: 80%;
+                    left:4px;
+                }
+            
+               
+            }
+          
+         
+        }
+        
+        .project{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            flex-direction: row;
+            gap: 1.5em;
+               width: 100%;
+               .pros-s{
+                width: 100%;
+                display: flex;
+                gap: 1em;
+                flex-direction: column;
+               }
+               .pro{
+             
+                width: 1.4em;
+                height: 10em;
+                background-color: #338ac6;
+                
+                p{ 
+                    color: white;
+                    font-weight: bold;
+                   transform-origin: 0 0;
+                    font-size: .7em;
+                    font-weight: bold;
+                   width: 170px;
+                    transform: rotate(-90deg);
+                    position: absolute;
+                    top: 75%;
+                    left:4px;
+                }
+            
+               
+            }
+             .eng{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+                .rating{
+                    &::after{
+                        width: 80%;
+                    }}
+         
+        }
+        .ger{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 80%;
+                }
+              }
+        }
+        .fula{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 94%;
+                }
+              }
+        }
+        .mandin{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 94%;
+                }
+              }
+        }
+        .wol{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+              .rating{
+                &::after{
+                    width: 94%;
+                }
+              }
+        }
+         
+   .rating{
+                position: relative;
+                width: 50%;
+                height: .8em;
+                border-radius: .5em;
+                overflow: hidden;
+                outline: 1px solid #338ac6;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width: 96%;
+                    height: 100%;
+                    top:0;
+                    left: 0;
+                    background-color: #338ac6;
+
+                }
+            }
+          
+        }
+
+        .project-system{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            flex-direction: row;
+            gap: 1.5em;
+               width: 100%;
+               .pros-s{
+                width: 100%;
+                display: flex;
+                gap: 1em;
+                flex-direction: column;
+               }
+               .pro{
+             
+                width: 1.4em;
+                height: 7em;
+                background-color: #338ac6;
+                
+                p{ 
+                    color: white;
+                    font-weight: bold;
+                   transform-origin: 0 0;
+                    font-size: .7em;
+                    font-weight: bold;
+                   width: 170px;
+                    transform: rotate(-90deg);
+                    position: absolute;
+                    top: 85%;
+                    left:4px;
+                }
+            
+               
+            }
+             .eng{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+               
+                .rating{
+                    height: 1.5em; 
+                    
+                
+                    &::after{
+                       padding-inline: .5em;
+                        width: 100%;
+                        content: 'System Analysis & Design';
+                        color: white;
+                        font-weight: bold;
+                        font-size: .9em;
+                        display: flex;
+                        align-items: center;
+                    }}
+         
+        }
+        .ger{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+                .rating{
+                    height: 1.5em; 
+                    background-color: #d8d8d8;
+                
+                    &::after{
+                       padding-inline: .5em;
+                        width: 60%;
+                        content: 'Requirement Analysis';
+                        color: white;
+                        font-weight: bold;
+                        font-size: .9em;
+                        display: flex;
+                        align-items: center;
+                    }}
+        }
+        .fula{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                 P{
+                    color: white;
+                }
+                .rating{
+                    height: 1.5em; 
+                    
+                
+                    &::after{
+                       padding-inline: .5em;
+                        width: 100%;
+                        content: 'Database Development';
+                        color: white;
+                        font-weight: bold;
+                        font-size: .9em;
+                        display: flex;
+                        align-items: center;
+                    }}
+        }
+
+         
+   .rating{
+                position: relative;
+                width: 100%;
+                height: .8em;
+                border-radius: .5em;
+                overflow: hidden;
+                outline: 1px solid #338ac6;
+
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width: 96%;
+                    height: 100%;
+                    top:0;
+                    left: 0;
+                    background-color: #338ac6;
+
+                }
+            }
+          
+        }
