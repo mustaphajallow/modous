@@ -3,6 +3,7 @@
 import React from 'react';
 import './main.scss';   
 import {UserIcon, PhonIcon, NetIcon, GlobeIcon, EducationIcon, LanguageIcon, SettingsIcon} from './icons';
+import Framework from './framework';
 function Main() {
   return (
     <div className="grid-container">
@@ -83,7 +84,9 @@ function Main() {
 
          </section>
 
-        
+         <section className="frame">
+           <Framework/>
+         </section>
     </div>
   );
 }
@@ -126,13 +129,13 @@ function Stacks ()  {
                 <h5>PROGRAMMER</h5>
                 <div className="inline">
 
-                 <p className="hotal">HOTALBIRD</p>
-                  <p className="link">http://hotalbird.com</p>
+                 <p className="hotal">LEVELS GMBH & CO. KG </p>
+                  <p className="link">| https://levels.one</p>
            
                 </div>
                 </div>
             <div className="date">
-                <p className="date-text ">Nov. 2019 -Present</p>
+                <p className="date-text ">2017 - 2019</p>
                 <p className="contry">Germany</p>
             </div>
          </div>
@@ -150,13 +153,13 @@ function Stacks ()  {
                 <h5>SYSTEM ANALYST/ARCHTECT & CO-FOUNDER</h5>
                 <div className="inline">
 
-                 <p className="hotal">HOTALBIRD</p>
-                  <p className="link">http://hotalbird.com</p>
+                 <p className="hotal">GOLUMA LTD.</p>
+                  <p className="link"> http://goluma.com</p>
            
                 </div>
                 </div>
             <div className="date">
-                <p className="date-text ">Nov. 2019 -Present</p>
+                <p className="date-text ">2011 - 2017</p>
                 <p className="contry">Germany</p>
             </div>
          </div>
@@ -180,16 +183,16 @@ function Stacks ()  {
       <div className="dev">
          <div className="hd">
             <div className="dev-know">
-                <h5>LECTURER</h5>
+                <h5>LECTURER</h5><p className="link">(ADVANCED WEB PROGRAMMING)</p>
                 <div className="inline">
 
-                 <p className="hotal">HOTALBIRD</p>
-                  <p className="link">http://hotalbird.com</p>
+                 <p className="hotal">MANAGEMENT DEVELOPMENT INSTITUTE</p>
+                  
            
                 </div>
                 </div>
             <div className="date">
-                <p className="date-text ">Nov. 2019 -Present</p>
+                <p className="date-text ">Sep. 2016 - Jul. 2017</p>
                 <p className="contry">Germany</p>
             </div>
          </div>
@@ -205,13 +208,14 @@ function Stacks ()  {
                 <h5>SENIOR ICT OFFICER</h5>
                 <div className="inline">
 
-                 <p className="hotal">HOTALBIRD</p>
-                  <p className="link">http://hotalbird.com</p>
+                 <p className="hotal control">MINISTRY OF HIGHER EDUCATION MANAGEMENT
+INFORMATION SYSTEM</p>
+                  <p className="link">| http://moherst.gov.gm</p>
            
                 </div>
                 </div>
             <div className="date">
-                <p className="date-text ">Nov. 2019 -Present</p>
+                <p className="date-text ">2014 - 2017</p>
                 <p className="contry">Germany</p>
             </div>
          </div>
@@ -238,13 +242,13 @@ function Stacks ()  {
                 <h5>WEB DEVELOPER</h5>
                 <div className="inline">
 
-                 <p className="hotal">HOTALBIRD</p>
-                  <p className="link">http://hotalbird.com</p>
+                 <p className="hotal">FOLONK LTD. </p>
+                  <p className="link"> https://app.kubejara.com</p>
            
                 </div>
                 </div>
             <div className="date">
-                <p className="date-text ">Nov. 2019 -Present</p>
+                <p className="date-text ">Sep. 2016 - Jul. 2017</p>
                 <p className="contry">Germany</p>
             </div>
          </div>
