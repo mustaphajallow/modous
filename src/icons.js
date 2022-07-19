@@ -72,3 +72,29 @@ export const SettingsIcon = () => {
 
     );
   }
+
+  export const MoviesIcon = () => {
+    return (
+      <svg id="Layer_1" height="512" viewBox="0 0 24 24" width="512"  stroke="currentColor" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m19 0h-14a5.006 5.006 0 0 0 -5 5v14a5.006 5.006 0 0 0 5 5h14a5.006 5.006 0 0 0 5-5v-14a5.006 5.006 0 0 0 -5-5zm1 11h2v2h-2zm0-2v-2h2v2zm-2 2h-12v-9h12zm-14 2h-2v-2h2zm0-4h-2v-2h2zm-2 6h2v2h-2zm4-2h12v9h-12zm14 2h2v2h-2zm2-10h-2v-2.816a3 3 0 0 1 2 2.816zm-18-2.816v2.816h-2a3 3 0 0 1 2-2.816zm-2 16.816h2v2.816a3 3 0 0 1 -2-2.816zm18 2.816v-2.816h2a3 3 0 0 1 -2 2.816z"/></svg>
+    );
+  }
+  export const TechIcon = () => {
+    return (
+      <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" stroke="currentColor" fill="currentcolor" viewBox="0 0 24 24" width="512" height="512"><path d="M24,12c0,.785-.378,1.933-2.178,2.946a8.292,8.292,0,0,1-2.96.964,6.914,6.914,0,0,0-.26-7.851,8.38,8.38,0,0,1,3.22,1C23.622,10.067,24,11.215,24,12ZM15.9,8H6v8H16.421C18.57,13.336,18.517,10.269,15.9,8ZM4,8H3a3,3,0,0,0-3,3v2a3,3,0,0,0,3,3H4Zm8.485-2L10.557,2.556A5.007,5.007,0,0,0,6.194,0H5.038a3,3,0,0,0-3,3V6ZM2,18v3a3,3,0,0,0,3,3H6.156a5.005,5.005,0,0,0,4.362-2.556L12.447,18Z"/></svg>
+
+    );
+  }
+
+  export const ReadingIcon = () => {
+    return (
+      
+<svg id="Layer_1" height="512" viewBox="0 0 24 24" width="512" stroke="currentColor" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m23 11a1 1 0 0 0 -1 1 10.034 10.034 0 1 1 -2.9-7.021.862.862 0 0 1 -.1.021h-3a1 1 0 0 0 0 2h3a3 3 0 0 0 3-3v-3a1 1 0 0 0 -2 0v2.065a11.994 11.994 0 1 0 4 8.935 1 1 0 0 0 -1-1z"/><path d="m12 6a1 1 0 0 0 -1 1v5a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414l-2.707-2.707v-4.586a1 1 0 0 0 -1-1z"/></svg>
+    );
+  }
+
+  export const DoctorIcon = () => {
+    return (
+     
+<svg id="Layer_1" height="512" viewBox="0 0 24 24" stroke="currentColor" fill="currentcolor" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m23 11a1 1 0 0 0 -1 1 10.034 10.034 0 1 1 -2.9-7.021.862.862 0 0 1 -.1.021h-3a1 1 0 0 0 0 2h3a3 3 0 0 0 3-3v-3a1 1 0 0 0 -2 0v2.065a11.994 11.994 0 1 0 4 8.935 1 1 0 0 0 -1-1z"/><path d="m12 6a1 1 0 0 0 -1 1v5a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414l-2.707-2.707v-4.586a1 1 0 0 0 -1-1z"/></svg>
+    );
+  }

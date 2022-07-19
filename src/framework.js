@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import './framework.scss';   
-import {UserIcon, PhonIcon, NetIcon, GlobeIcon, EducationIcon, LanguageIcon, SettingsIcon,EyeIcon } from './icons';
+import {UserIcon, PhonIcon, NetIcon, GlobeIcon, ReadingIcon, LanguageIcon, SettingsIcon,EyeIcon ,MoviesIcon,TechIcon  } from './icons';
 import LineChats from './muChart';
 
 import {UserData} from './Data'
@@ -230,30 +230,30 @@ function Stacks ({userData})  {
             <div className="hub-grid">
               <div className="cont">
                  <div className="icon">
-                 <EducationIcon/>
+                 <TechIcon />
               </div>
-              <p className="text">Trending Technolog </p>
+              <p className="text">Trending Technology </p>
 
               </div>
               <div className="cont">
                  <div className="icon">
-                 <EducationIcon/>
+                 <MoviesIcon />
               </div>
-              <p className="text">Trending Te </p>
+              <p className="text">Watching Comedy</p>
 
               </div>
               <div className="cont">
                  <div className="icon">
-                 <EducationIcon/>
+                 <MoviesIcon/>
               </div>
-              <p className="text">Trending Technolog </p>
+              <p className="text">Doctor Who</p>
 
               </div>
               <div className="cont">
                  <div className="icon">
-                 <EducationIcon/>
+                 <ReadingIcon/>
               </div>
-              <p className="text">Trending Technolog </p>
+              <p className="text">Reading about Time Travel </p>
 
               </div>
              
@@ -285,9 +285,9 @@ function Stacks ({userData})  {
               <div className="blue-circle">
 
                 <p className="vig ant">Vigilant</p>
-                <p className="vig pass">Compassionate</p>
-                <p className="vig able">Adaptable</p>
-                <p className="vig cat">Dedicated</p>
+                 <p className="vig pass">Compassionate</p>
+               <p className="vig able">Adaptable</p>
+                 <p className="vig cat">Dedicated</p> 
               </div>
              </div>
 
