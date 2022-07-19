@@ -467,13 +467,18 @@
  }
 
 .hub-grid{
+    padding: 1em;
      display: grid;
      grid-template-columns: repeat(2,1fr);
      gap: .4em;
      .cont{
   display: flex;
+  margin-bottom: 5em;
   align-items: center;
   gap: .5em;
+  .text{
+    width: 50%;
+  }
         p{
             font-size: .8em;
 
@@ -491,36 +496,39 @@
 }
 
 .blue-circle{
+    padding: 1em;
    display: flex;
    flex-wrap: wrap;
+   position: relative;
     .vig{
         color: white;
         padding: 1.2em;
         border-radius: 100%;
         display: grid;
         place-items: center;
-        
+        position: absolute;
      
         background-color: #338bc68b;
     }
     .ant{
-        width: 7em;
-        height: 7em;
+        width: 8em;
+        height: 8em;
         transform: translate(1.7em );
     }
     .pass{
         width: 10em;
          height: 10em;
+         transform: translate(7.7em );
     }
     .able{
-        width: 9em;
+        width: 7em;
            aspect-ratio: 1/1;
-           transform: translateY(-3.7em );
+           transform: translate( 4em ,6em );
     }
     .cat{
-        width: 9em;
-           aspect-ratio: 1/1;
-           transform: translateY(-1.7em );
+        width: 8em;
+         height: 8em;
+         transform: translate( 13em ,8.2em );
     }
 }
 
